@@ -1,0 +1,998 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4014737B2BC3801F00B25A87 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014737A2BC3801F00B25A87 /* EntryViewController.swift */; };
+		4014737D2BC44A1F00B25A87 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014737C2BC44A1F00B25A87 /* SignInViewController.swift */; };
+		4014737F2BC4867C00B25A87 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014737E2BC4867C00B25A87 /* ForgotPasswordViewController.swift */; };
+		401473812BC4868B00B25A87 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473802BC4868B00B25A87 /* SignUpViewController.swift */; };
+		401473832BC486A700B25A87 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473822BC486A700B25A87 /* HomeViewController.swift */; };
+		401473852BC486B600B25A87 /* PastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473842BC486B600B25A87 /* PastViewController.swift */; };
+		401473872BC486C300B25A87 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473862BC486C300B25A87 /* ProfileViewController.swift */; };
+		401473892BC488CD00B25A87 /* CurrentAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401473882BC488CD00B25A87 /* CurrentAppointmentViewController.swift */; };
+		402160612C04ADAE00B94C36 /* InstitutionalAppointmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402160602C04ADAE00B94C36 /* InstitutionalAppointmentModel.swift */; };
+		402160632C04ADF000B94C36 /* InstitutionalAppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402160622C04ADF000B94C36 /* InstitutionalAppointmentViewModel.swift */; };
+		402160652C04D28700B94C36 /* InstitutionalCardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402160642C04D28700B94C36 /* InstitutionalCardData.swift */; };
+		40331F8E2BD3FE4700B212EE /* HomeContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F8D2BD3FE4700B212EE /* HomeContactDetailViewController.swift */; };
+		40331F902BD3FE8F00B212EE /* CurrentAppointmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F8F2BD3FE8F00B212EE /* CurrentAppointmentDetailViewController.swift */; };
+		40331F922BD3FEA600B212EE /* PastDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F912BD3FEA600B212EE /* PastDetailViewController.swift */; };
+		40331F942BD3FF8800B212EE /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F932BD3FF8800B212EE /* EditProfileViewController.swift */; };
+		40331F982BD40CBC00B212EE /* InstitutionalLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F972BD40CBC00B212EE /* InstitutionalLoginViewController.swift */; };
+		40331F9A2BD40CCE00B212EE /* InstitutionalRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F992BD40CCE00B212EE /* InstitutionalRegisterViewController.swift */; };
+		40331F9C2BD40CE100B212EE /* InstitutionalForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F9B2BD40CE100B212EE /* InstitutionalForgotPasswordViewController.swift */; };
+		40331F9F2BD410AF00B212EE /* InstitutionalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331F9E2BD410AF00B212EE /* InstitutionalHomeViewController.swift */; };
+		40331FA12BD410E200B212EE /* InstitutionalProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40331FA02BD410E200B212EE /* InstitutionalProfileViewController.swift */; };
+		4042E9502BD29ACD00A323D3 /* PastCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042E94F2BD29ACD00A323D3 /* PastCardCollectionViewCell.swift */; };
+		405ABE802BC6043A00F7E32F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405ABE7F2BC6043A00F7E32F /* TabBarController.swift */; };
+		4077C2E22BB96CC50005BC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C2E12BB96CC50005BC4A /* AppDelegate.swift */; };
+		4077C2E42BB96CC50005BC4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C2E32BB96CC50005BC4A /* SceneDelegate.swift */; };
+		4077C2E92BB96CC50005BC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4077C2E72BB96CC50005BC4A /* Main.storyboard */; };
+		4077C2EB2BB96CC70005BC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4077C2EA2BB96CC70005BC4A /* Assets.xcassets */; };
+		4077C2EE2BB96CC70005BC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4077C2EC2BB96CC70005BC4A /* LaunchScreen.storyboard */; };
+		4077C2F92BB96CC70005BC4A /* CarWashingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C2F82BB96CC70005BC4A /* CarWashingTests.swift */; };
+		4077C3032BB96CC70005BC4A /* CarWashingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C3022BB96CC70005BC4A /* CarWashingUITests.swift */; };
+		4077C3052BB96CC70005BC4A /* CarWashingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4077C3042BB96CC70005BC4A /* CarWashingUITestsLaunchTests.swift */; };
+		4077C3182BBC2BA60005BC4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4077C3172BBC2BA60005BC4A /* GoogleService-Info.plist */; };
+		407D8D622BC6379D00F80AFE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D8D612BC6379D00F80AFE /* CustomTextField.swift */; };
+		407D8D642BCD2D9700F80AFE /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407D8D632BCD2D9700F80AFE /* CardViewController.swift */; };
+		409C0E9C2C0E195F004BD289 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C0E9B2C0E195F004BD289 /* UserModel.swift */; };
+		409C0E9E2C0E1BCA004BD289 /* UserInformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C0E9D2C0E1BCA004BD289 /* UserInformationViewModel.swift */; };
+		40A05F372BFB912C002D51B5 /* InstitutionalUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A05F362BFB912C002D51B5 /* InstitutionalUserModel.swift */; };
+		40A05F392BFB9464002D51B5 /* InstitutionalUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A05F382BFB9464002D51B5 /* InstitutionalUserViewModel.swift */; };
+		40C8EC542BD51DD2002818C7 /* InstitutionalTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC532BD51DD2002818C7 /* InstitutionalTabBarController.swift */; };
+		40C8EC572BD53D36002818C7 /* InstitutionalHomeCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC562BD53D36002818C7 /* InstitutionalHomeCardCollectionViewCell.swift */; };
+		40C8EC592BD55111002818C7 /* InstitutionalProfileCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC582BD55111002818C7 /* InstitutionalProfileCardCollectionViewCell.swift */; };
+		40C8EC5B2BD57400002818C7 /* InstitutionalHomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC5A2BD57400002818C7 /* InstitutionalHomeDetailViewController.swift */; };
+		40C8EC672BD5784D002818C7 /* InstitutionalEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC662BD5784D002818C7 /* InstitutionalEditProfileViewController.swift */; };
+		40C8EC692BD57863002818C7 /* InstitutionalAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC682BD57863002818C7 /* InstitutionalAboutViewController.swift */; };
+		40C8EC6B2BD57878002818C7 /* InstitutionalPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC6A2BD57877002818C7 /* InstitutionalPrivacyViewController.swift */; };
+		40C8EC6D2BD57885002818C7 /* InstitutionalSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC6C2BD57885002818C7 /* InstitutionalSecurityViewController.swift */; };
+		40C8EC6F2BD578AA002818C7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC6E2BD578AA002818C7 /* AboutViewController.swift */; };
+		40C8EC712BD578B7002818C7 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC702BD578B7002818C7 /* PrivacyViewController.swift */; };
+		40C8EC732BD578D0002818C7 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8EC722BD578D0002818C7 /* SecurityViewController.swift */; };
+		40E8C4452BD03C6500F0ACA9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8C4442BD03C6500F0ACA9 /* CustomButton.swift */; };
+		40E8C4472BD050E400F0ACA9 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8C4462BD050E400F0ACA9 /* CardData.swift */; };
+		40E8C4492BD052A500F0ACA9 /* HomeCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8C4482BD052A500F0ACA9 /* HomeCardCollectionViewCell.swift */; };
+		40E8C44B2BD1485400F0ACA9 /* CurrentCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E8C44A2BD1485400F0ACA9 /* CurrentCardCollectionViewCell.swift */; };
+		7F4D458160590A3C9B700705 /* Pods_CarWashing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E426CC337F5266B9DFDED755 /* Pods_CarWashing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4077C2F52BB96CC70005BC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4077C2D62BB96CC50005BC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4077C2DD2BB96CC50005BC4A;
+			remoteInfo = CarWashing;
+		};
+		4077C2FF2BB96CC70005BC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4077C2D62BB96CC50005BC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4077C2DD2BB96CC50005BC4A;
+			remoteInfo = CarWashing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4014737A2BC3801F00B25A87 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		4014737C2BC44A1F00B25A87 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4014737E2BC4867C00B25A87 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		401473802BC4868B00B25A87 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		401473822BC486A700B25A87 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		401473842BC486B600B25A87 /* PastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastViewController.swift; sourceTree = "<group>"; };
+		401473862BC486C300B25A87 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		401473882BC488CD00B25A87 /* CurrentAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentAppointmentViewController.swift; sourceTree = "<group>"; };
+		402160602C04ADAE00B94C36 /* InstitutionalAppointmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalAppointmentModel.swift; sourceTree = "<group>"; };
+		402160622C04ADF000B94C36 /* InstitutionalAppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalAppointmentViewModel.swift; sourceTree = "<group>"; };
+		402160642C04D28700B94C36 /* InstitutionalCardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalCardData.swift; sourceTree = "<group>"; };
+		40331F8D2BD3FE4700B212EE /* HomeContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContactDetailViewController.swift; sourceTree = "<group>"; };
+		40331F8F2BD3FE8F00B212EE /* CurrentAppointmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentAppointmentDetailViewController.swift; sourceTree = "<group>"; };
+		40331F912BD3FEA600B212EE /* PastDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastDetailViewController.swift; sourceTree = "<group>"; };
+		40331F932BD3FF8800B212EE /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		40331F972BD40CBC00B212EE /* InstitutionalLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalLoginViewController.swift; sourceTree = "<group>"; };
+		40331F992BD40CCE00B212EE /* InstitutionalRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalRegisterViewController.swift; sourceTree = "<group>"; };
+		40331F9B2BD40CE100B212EE /* InstitutionalForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		40331F9E2BD410AF00B212EE /* InstitutionalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalHomeViewController.swift; sourceTree = "<group>"; };
+		40331FA02BD410E200B212EE /* InstitutionalProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalProfileViewController.swift; sourceTree = "<group>"; };
+		4042E94F2BD29ACD00A323D3 /* PastCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		405ABE7F2BC6043A00F7E32F /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4077C2DE2BB96CC50005BC4A /* CarWashing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarWashing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077C2E12BB96CC50005BC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4077C2E32BB96CC50005BC4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4077C2E82BB96CC50005BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4077C2EA2BB96CC70005BC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4077C2ED2BB96CC70005BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4077C2EF2BB96CC70005BC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4077C2F42BB96CC70005BC4A /* CarWashingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWashingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077C2F82BB96CC70005BC4A /* CarWashingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashingTests.swift; sourceTree = "<group>"; };
+		4077C2FE2BB96CC70005BC4A /* CarWashingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarWashingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077C3022BB96CC70005BC4A /* CarWashingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashingUITests.swift; sourceTree = "<group>"; };
+		4077C3042BB96CC70005BC4A /* CarWashingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4077C3172BBC2BA60005BC4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		407D8D612BC6379D00F80AFE /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		407D8D632BCD2D9700F80AFE /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		409C0E9B2C0E195F004BD289 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		409C0E9D2C0E1BCA004BD289 /* UserInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationViewModel.swift; sourceTree = "<group>"; };
+		40A05F362BFB912C002D51B5 /* InstitutionalUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalUserModel.swift; sourceTree = "<group>"; };
+		40A05F382BFB9464002D51B5 /* InstitutionalUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalUserViewModel.swift; sourceTree = "<group>"; };
+		40C8EC532BD51DD2002818C7 /* InstitutionalTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalTabBarController.swift; sourceTree = "<group>"; };
+		40C8EC562BD53D36002818C7 /* InstitutionalHomeCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalHomeCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		40C8EC582BD55111002818C7 /* InstitutionalProfileCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalProfileCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		40C8EC5A2BD57400002818C7 /* InstitutionalHomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalHomeDetailViewController.swift; sourceTree = "<group>"; };
+		40C8EC662BD5784D002818C7 /* InstitutionalEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalEditProfileViewController.swift; sourceTree = "<group>"; };
+		40C8EC682BD57863002818C7 /* InstitutionalAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalAboutViewController.swift; sourceTree = "<group>"; };
+		40C8EC6A2BD57877002818C7 /* InstitutionalPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalPrivacyViewController.swift; sourceTree = "<group>"; };
+		40C8EC6C2BD57885002818C7 /* InstitutionalSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstitutionalSecurityViewController.swift; sourceTree = "<group>"; };
+		40C8EC6E2BD578AA002818C7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		40C8EC702BD578B7002818C7 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		40C8EC722BD578D0002818C7 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
+		40E8C4442BD03C6500F0ACA9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		40E8C4462BD050E400F0ACA9 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		40E8C4482BD052A500F0ACA9 /* HomeCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		40E8C44A2BD1485400F0ACA9 /* CurrentCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C09440F95DB187451DFDAB4 /* Pods-CarWashing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWashing.debug.xcconfig"; path = "Target Support Files/Pods-CarWashing/Pods-CarWashing.debug.xcconfig"; sourceTree = "<group>"; };
+		B75BF2F0A59819E8D812B907 /* Pods-CarWashing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWashing.release.xcconfig"; path = "Target Support Files/Pods-CarWashing/Pods-CarWashing.release.xcconfig"; sourceTree = "<group>"; };
+		E426CC337F5266B9DFDED755 /* Pods_CarWashing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarWashing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4077C2DB2BB96CC50005BC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4D458160590A3C9B700705 /* Pods_CarWashing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C2F12BB96CC70005BC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C2FB2BB96CC70005BC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40331F952BD40C3E00B212EE /* Individual */ = {
+			isa = PBXGroup;
+			children = (
+				40C8EC642BD57720002818C7 /* Detail */,
+				40C8EC612BD576D6002818C7 /* Cards */,
+				40C8EC5F2BD5766E002818C7 /* TabBarScreens */,
+				40C8EC5C2BD57605002818C7 /* LoginUser */,
+				407D8D5F2BC62FA400F80AFE /* TabBar */,
+			);
+			path = Individual;
+			sourceTree = "<group>";
+		};
+		40331F962BD40C4900B212EE /* Institutional */ = {
+			isa = PBXGroup;
+			children = (
+				40C8EC652BD577DB002818C7 /* TabBarScreens */,
+				40C8EC632BD57714002818C7 /* Detail */,
+				40C8EC622BD57709002818C7 /* LoginUser */,
+				40C8EC552BD53D05002818C7 /* Cards */,
+				40331F9D2BD4109000B212EE /* InstitutionalTabBar */,
+			);
+			path = Institutional;
+			sourceTree = "<group>";
+		};
+		40331F9D2BD4109000B212EE /* InstitutionalTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				40C8EC532BD51DD2002818C7 /* InstitutionalTabBarController.swift */,
+			);
+			path = InstitutionalTabBar;
+			sourceTree = "<group>";
+		};
+		4077C2D52BB96CC50005BC4A = {
+			isa = PBXGroup;
+			children = (
+				4077C2E02BB96CC50005BC4A /* CarWashing */,
+				4077C2F72BB96CC70005BC4A /* CarWashingTests */,
+				4077C3012BB96CC70005BC4A /* CarWashingUITests */,
+				4077C2DF2BB96CC50005BC4A /* Products */,
+				E60E43F38DFC1984B32B4F30 /* Pods */,
+				AEC2CE8A64DECB5D05894BA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4077C2DF2BB96CC50005BC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4077C2DE2BB96CC50005BC4A /* CarWashing.app */,
+				4077C2F42BB96CC70005BC4A /* CarWashingTests.xctest */,
+				4077C2FE2BB96CC70005BC4A /* CarWashingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4077C2E02BB96CC50005BC4A /* CarWashing */ = {
+			isa = PBXGroup;
+			children = (
+				40C8EC602BD576B1002818C7 /* Components */,
+				407D8D5E2BC62F6600F80AFE /* Controller */,
+				407D8D5D2BC62F2A00F80AFE /* Model */,
+				407D8D5C2BC62F2100F80AFE /* View */,
+				407D8D5B2BC62F1900F80AFE /* ViewModel */,
+				407D8D5A2BC62DFF00F80AFE /* Resources */,
+				4077C3172BBC2BA60005BC4A /* GoogleService-Info.plist */,
+				4077C2EF2BB96CC70005BC4A /* Info.plist */,
+			);
+			path = CarWashing;
+			sourceTree = "<group>";
+		};
+		4077C2F72BB96CC70005BC4A /* CarWashingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4077C2F82BB96CC70005BC4A /* CarWashingTests.swift */,
+			);
+			path = CarWashingTests;
+			sourceTree = "<group>";
+		};
+		4077C3012BB96CC70005BC4A /* CarWashingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4077C3022BB96CC70005BC4A /* CarWashingUITests.swift */,
+				4077C3042BB96CC70005BC4A /* CarWashingUITestsLaunchTests.swift */,
+			);
+			path = CarWashingUITests;
+			sourceTree = "<group>";
+		};
+		407D8D5A2BC62DFF00F80AFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4077C2E72BB96CC50005BC4A /* Main.storyboard */,
+				4077C2EC2BB96CC70005BC4A /* LaunchScreen.storyboard */,
+				4077C2E12BB96CC50005BC4A /* AppDelegate.swift */,
+				4077C2E32BB96CC50005BC4A /* SceneDelegate.swift */,
+				4077C2EA2BB96CC70005BC4A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		407D8D5B2BC62F1900F80AFE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				40A05F382BFB9464002D51B5 /* InstitutionalUserViewModel.swift */,
+				402160622C04ADF000B94C36 /* InstitutionalAppointmentViewModel.swift */,
+				409C0E9D2C0E1BCA004BD289 /* UserInformationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		407D8D5C2BC62F2100F80AFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4014737A2BC3801F00B25A87 /* EntryViewController.swift */,
+				40331F962BD40C4900B212EE /* Institutional */,
+				40331F952BD40C3E00B212EE /* Individual */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		407D8D5D2BC62F2A00F80AFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40E8C4462BD050E400F0ACA9 /* CardData.swift */,
+				40A05F362BFB912C002D51B5 /* InstitutionalUserModel.swift */,
+				402160602C04ADAE00B94C36 /* InstitutionalAppointmentModel.swift */,
+				402160642C04D28700B94C36 /* InstitutionalCardData.swift */,
+				409C0E9B2C0E195F004BD289 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		407D8D5E2BC62F6600F80AFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		407D8D5F2BC62FA400F80AFE /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				405ABE7F2BC6043A00F7E32F /* TabBarController.swift */,
+				407D8D632BCD2D9700F80AFE /* CardViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		40C8EC552BD53D05002818C7 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				40C8EC562BD53D36002818C7 /* InstitutionalHomeCardCollectionViewCell.swift */,
+				40C8EC582BD55111002818C7 /* InstitutionalProfileCardCollectionViewCell.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		40C8EC5C2BD57605002818C7 /* LoginUser */ = {
+			isa = PBXGroup;
+			children = (
+				4014737C2BC44A1F00B25A87 /* SignInViewController.swift */,
+				4014737E2BC4867C00B25A87 /* ForgotPasswordViewController.swift */,
+				401473802BC4868B00B25A87 /* SignUpViewController.swift */,
+			);
+			path = LoginUser;
+			sourceTree = "<group>";
+		};
+		40C8EC5F2BD5766E002818C7 /* TabBarScreens */ = {
+			isa = PBXGroup;
+			children = (
+				401473822BC486A700B25A87 /* HomeViewController.swift */,
+				401473862BC486C300B25A87 /* ProfileViewController.swift */,
+				401473842BC486B600B25A87 /* PastViewController.swift */,
+				401473882BC488CD00B25A87 /* CurrentAppointmentViewController.swift */,
+			);
+			path = TabBarScreens;
+			sourceTree = "<group>";
+		};
+		40C8EC602BD576B1002818C7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				407D8D612BC6379D00F80AFE /* CustomTextField.swift */,
+				40E8C4442BD03C6500F0ACA9 /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		40C8EC612BD576D6002818C7 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				40E8C4482BD052A500F0ACA9 /* HomeCardCollectionViewCell.swift */,
+				40E8C44A2BD1485400F0ACA9 /* CurrentCardCollectionViewCell.swift */,
+				4042E94F2BD29ACD00A323D3 /* PastCardCollectionViewCell.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		40C8EC622BD57709002818C7 /* LoginUser */ = {
+			isa = PBXGroup;
+			children = (
+				40331F972BD40CBC00B212EE /* InstitutionalLoginViewController.swift */,
+				40331F992BD40CCE00B212EE /* InstitutionalRegisterViewController.swift */,
+				40331F9B2BD40CE100B212EE /* InstitutionalForgotPasswordViewController.swift */,
+			);
+			path = LoginUser;
+			sourceTree = "<group>";
+		};
+		40C8EC632BD57714002818C7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				40C8EC5A2BD57400002818C7 /* InstitutionalHomeDetailViewController.swift */,
+				40C8EC662BD5784D002818C7 /* InstitutionalEditProfileViewController.swift */,
+				40C8EC682BD57863002818C7 /* InstitutionalAboutViewController.swift */,
+				40C8EC6A2BD57877002818C7 /* InstitutionalPrivacyViewController.swift */,
+				40C8EC6C2BD57885002818C7 /* InstitutionalSecurityViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		40C8EC642BD57720002818C7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				40331F932BD3FF8800B212EE /* EditProfileViewController.swift */,
+				40331F8D2BD3FE4700B212EE /* HomeContactDetailViewController.swift */,
+				40331F8F2BD3FE8F00B212EE /* CurrentAppointmentDetailViewController.swift */,
+				40331F912BD3FEA600B212EE /* PastDetailViewController.swift */,
+				40C8EC6E2BD578AA002818C7 /* AboutViewController.swift */,
+				40C8EC702BD578B7002818C7 /* PrivacyViewController.swift */,
+				40C8EC722BD578D0002818C7 /* SecurityViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		40C8EC652BD577DB002818C7 /* TabBarScreens */ = {
+			isa = PBXGroup;
+			children = (
+				40331F9E2BD410AF00B212EE /* InstitutionalHomeViewController.swift */,
+				40331FA02BD410E200B212EE /* InstitutionalProfileViewController.swift */,
+			);
+			path = TabBarScreens;
+			sourceTree = "<group>";
+		};
+		AEC2CE8A64DECB5D05894BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E426CC337F5266B9DFDED755 /* Pods_CarWashing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60E43F38DFC1984B32B4F30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C09440F95DB187451DFDAB4 /* Pods-CarWashing.debug.xcconfig */,
+				B75BF2F0A59819E8D812B907 /* Pods-CarWashing.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4077C2DD2BB96CC50005BC4A /* CarWashing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077C3082BB96CC70005BC4A /* Build configuration list for PBXNativeTarget "CarWashing" */;
+			buildPhases = (
+				5BF945F27063C5CD25E1A1CC /* [CP] Check Pods Manifest.lock */,
+				4077C2DA2BB96CC50005BC4A /* Sources */,
+				4077C2DB2BB96CC50005BC4A /* Frameworks */,
+				4077C2DC2BB96CC50005BC4A /* Resources */,
+				170E79401E1B8076AB1688CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarWashing;
+			productName = CarWashing;
+			productReference = 4077C2DE2BB96CC50005BC4A /* CarWashing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4077C2F32BB96CC70005BC4A /* CarWashingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077C30B2BB96CC70005BC4A /* Build configuration list for PBXNativeTarget "CarWashingTests" */;
+			buildPhases = (
+				4077C2F02BB96CC70005BC4A /* Sources */,
+				4077C2F12BB96CC70005BC4A /* Frameworks */,
+				4077C2F22BB96CC70005BC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4077C2F62BB96CC70005BC4A /* PBXTargetDependency */,
+			);
+			name = CarWashingTests;
+			productName = CarWashingTests;
+			productReference = 4077C2F42BB96CC70005BC4A /* CarWashingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4077C2FD2BB96CC70005BC4A /* CarWashingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4077C30E2BB96CC70005BC4A /* Build configuration list for PBXNativeTarget "CarWashingUITests" */;
+			buildPhases = (
+				4077C2FA2BB96CC70005BC4A /* Sources */,
+				4077C2FB2BB96CC70005BC4A /* Frameworks */,
+				4077C2FC2BB96CC70005BC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4077C3002BB96CC70005BC4A /* PBXTargetDependency */,
+			);
+			name = CarWashingUITests;
+			productName = CarWashingUITests;
+			productReference = 4077C2FE2BB96CC70005BC4A /* CarWashingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4077C2D62BB96CC50005BC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4077C2DD2BB96CC50005BC4A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4077C2F32BB96CC70005BC4A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4077C2DD2BB96CC50005BC4A;
+					};
+					4077C2FD2BB96CC70005BC4A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4077C2DD2BB96CC50005BC4A;
+					};
+				};
+			};
+			buildConfigurationList = 4077C2D92BB96CC50005BC4A /* Build configuration list for PBXProject "CarWashing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4077C2D52BB96CC50005BC4A;
+			productRefGroup = 4077C2DF2BB96CC50005BC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4077C2DD2BB96CC50005BC4A /* CarWashing */,
+				4077C2F32BB96CC70005BC4A /* CarWashingTests */,
+				4077C2FD2BB96CC70005BC4A /* CarWashingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4077C2DC2BB96CC50005BC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C2EE2BB96CC70005BC4A /* LaunchScreen.storyboard in Resources */,
+				4077C3182BBC2BA60005BC4A /* GoogleService-Info.plist in Resources */,
+				4077C2EB2BB96CC70005BC4A /* Assets.xcassets in Resources */,
+				4077C2E92BB96CC50005BC4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C2F22BB96CC70005BC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C2FC2BB96CC70005BC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		170E79401E1B8076AB1688CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarWashing/Pods-CarWashing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarWashing/Pods-CarWashing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarWashing/Pods-CarWashing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF945F27063C5CD25E1A1CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarWashing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4077C2DA2BB96CC50005BC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407D8D622BC6379D00F80AFE /* CustomTextField.swift in Sources */,
+				4077C2E22BB96CC50005BC4A /* AppDelegate.swift in Sources */,
+				40C8EC692BD57863002818C7 /* InstitutionalAboutViewController.swift in Sources */,
+				405ABE802BC6043A00F7E32F /* TabBarController.swift in Sources */,
+				40C8EC712BD578B7002818C7 /* PrivacyViewController.swift in Sources */,
+				40331F8E2BD3FE4700B212EE /* HomeContactDetailViewController.swift in Sources */,
+				401473832BC486A700B25A87 /* HomeViewController.swift in Sources */,
+				40E8C4492BD052A500F0ACA9 /* HomeCardCollectionViewCell.swift in Sources */,
+				40E8C4452BD03C6500F0ACA9 /* CustomButton.swift in Sources */,
+				409C0E9E2C0E1BCA004BD289 /* UserInformationViewModel.swift in Sources */,
+				40C8EC542BD51DD2002818C7 /* InstitutionalTabBarController.swift in Sources */,
+				40A05F392BFB9464002D51B5 /* InstitutionalUserViewModel.swift in Sources */,
+				401473872BC486C300B25A87 /* ProfileViewController.swift in Sources */,
+				40331F942BD3FF8800B212EE /* EditProfileViewController.swift in Sources */,
+				40C8EC6D2BD57885002818C7 /* InstitutionalSecurityViewController.swift in Sources */,
+				40331F9C2BD40CE100B212EE /* InstitutionalForgotPasswordViewController.swift in Sources */,
+				40E8C44B2BD1485400F0ACA9 /* CurrentCardCollectionViewCell.swift in Sources */,
+				401473852BC486B600B25A87 /* PastViewController.swift in Sources */,
+				40331F9A2BD40CCE00B212EE /* InstitutionalRegisterViewController.swift in Sources */,
+				409C0E9C2C0E195F004BD289 /* UserModel.swift in Sources */,
+				401473892BC488CD00B25A87 /* CurrentAppointmentViewController.swift in Sources */,
+				4014737F2BC4867C00B25A87 /* ForgotPasswordViewController.swift in Sources */,
+				40C8EC5B2BD57400002818C7 /* InstitutionalHomeDetailViewController.swift in Sources */,
+				407D8D642BCD2D9700F80AFE /* CardViewController.swift in Sources */,
+				40331F902BD3FE8F00B212EE /* CurrentAppointmentDetailViewController.swift in Sources */,
+				40C8EC572BD53D36002818C7 /* InstitutionalHomeCardCollectionViewCell.swift in Sources */,
+				40C8EC672BD5784D002818C7 /* InstitutionalEditProfileViewController.swift in Sources */,
+				40C8EC732BD578D0002818C7 /* SecurityViewController.swift in Sources */,
+				402160612C04ADAE00B94C36 /* InstitutionalAppointmentModel.swift in Sources */,
+				4042E9502BD29ACD00A323D3 /* PastCardCollectionViewCell.swift in Sources */,
+				40C8EC592BD55111002818C7 /* InstitutionalProfileCardCollectionViewCell.swift in Sources */,
+				40331F9F2BD410AF00B212EE /* InstitutionalHomeViewController.swift in Sources */,
+				4014737B2BC3801F00B25A87 /* EntryViewController.swift in Sources */,
+				4014737D2BC44A1F00B25A87 /* SignInViewController.swift in Sources */,
+				40C8EC6B2BD57878002818C7 /* InstitutionalPrivacyViewController.swift in Sources */,
+				402160652C04D28700B94C36 /* InstitutionalCardData.swift in Sources */,
+				401473812BC4868B00B25A87 /* SignUpViewController.swift in Sources */,
+				402160632C04ADF000B94C36 /* InstitutionalAppointmentViewModel.swift in Sources */,
+				40C8EC6F2BD578AA002818C7 /* AboutViewController.swift in Sources */,
+				40331F922BD3FEA600B212EE /* PastDetailViewController.swift in Sources */,
+				40A05F372BFB912C002D51B5 /* InstitutionalUserModel.swift in Sources */,
+				4077C2E42BB96CC50005BC4A /* SceneDelegate.swift in Sources */,
+				40331FA12BD410E200B212EE /* InstitutionalProfileViewController.swift in Sources */,
+				40E8C4472BD050E400F0ACA9 /* CardData.swift in Sources */,
+				40331F982BD40CBC00B212EE /* InstitutionalLoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C2F02BB96CC70005BC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C2F92BB96CC70005BC4A /* CarWashingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4077C2FA2BB96CC70005BC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4077C3032BB96CC70005BC4A /* CarWashingUITests.swift in Sources */,
+				4077C3052BB96CC70005BC4A /* CarWashingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4077C2F62BB96CC70005BC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4077C2DD2BB96CC50005BC4A /* CarWashing */;
+			targetProxy = 4077C2F52BB96CC70005BC4A /* PBXContainerItemProxy */;
+		};
+		4077C3002BB96CC70005BC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4077C2DD2BB96CC50005BC4A /* CarWashing */;
+			targetProxy = 4077C2FF2BB96CC70005BC4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4077C2E72BB96CC50005BC4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4077C2E82BB96CC50005BC4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4077C2EC2BB96CC70005BC4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4077C2ED2BB96CC70005BC4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4077C3062BB96CC70005BC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4077C3072BB96CC70005BC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4077C3092BB96CC70005BC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C09440F95DB187451DFDAB4 /* Pods-CarWashing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarWashing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammetyikmis.CarWashing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4077C30A2BB96CC70005BC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75BF2F0A59819E8D812B907 /* Pods-CarWashing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarWashing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammetyikmis.CarWashing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4077C30C2BB96CC70005BC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammetyikmis.CarWashingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWashing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarWashing";
+			};
+			name = Debug;
+		};
+		4077C30D2BB96CC70005BC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammetyikmis.CarWashingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarWashing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarWashing";
+			};
+			name = Release;
+		};
+		4077C30F2BB96CC70005BC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammetyikmis.CarWashingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWashing;
+			};
+			name = Debug;
+		};
+		4077C3102BB96CC70005BC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muhammetyikmis.CarWashingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarWashing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4077C2D92BB96CC50005BC4A /* Build configuration list for PBXProject "CarWashing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C3062BB96CC70005BC4A /* Debug */,
+				4077C3072BB96CC70005BC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4077C3082BB96CC70005BC4A /* Build configuration list for PBXNativeTarget "CarWashing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C3092BB96CC70005BC4A /* Debug */,
+				4077C30A2BB96CC70005BC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4077C30B2BB96CC70005BC4A /* Build configuration list for PBXNativeTarget "CarWashingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C30C2BB96CC70005BC4A /* Debug */,
+				4077C30D2BB96CC70005BC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4077C30E2BB96CC70005BC4A /* Build configuration list for PBXNativeTarget "CarWashingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4077C30F2BB96CC70005BC4A /* Debug */,
+				4077C3102BB96CC70005BC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4077C2D62BB96CC50005BC4A /* Project object */;
+}
